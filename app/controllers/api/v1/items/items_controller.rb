@@ -21,7 +21,7 @@ class Api::V1::Items::ItemsController < Api::ApiController
   private
 
   def item_params
-
+    params.permit(:name, :description, :image_url)
   end
 
 end

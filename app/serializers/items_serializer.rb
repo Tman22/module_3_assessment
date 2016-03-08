@@ -1,5 +1,5 @@
 class ItemsSerializer < ActiveModel::Serializer
-  attribute :item, :id,
+  attribute :items, :id,
             :image_url,
             :description,
             :name
