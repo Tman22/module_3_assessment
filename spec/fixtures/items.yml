@@ -1,0 +1,14 @@
+one:
+  name: Bruce
+  description: Darkness
+  image_url: "http://yeah_you_know_me"
+
+two:
+  name: Clark
+  description: Lonely
+  image_url: "http://yeah_you_know_me"
+
+three:
+  name: Berry
+  description: Fast
+  image_url: "something_really_cool"
