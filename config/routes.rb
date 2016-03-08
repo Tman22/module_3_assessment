@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
       namespace :items do
         get '/', to: "items#index"
+        get '/:id', to: "items#show"
+        delete '/:id', to: "items#destroy"
       end
 
 
