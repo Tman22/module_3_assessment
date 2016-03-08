@@ -5,13 +5,14 @@ Rails.application.routes.draw do
   resources :orders, only: [:index, :show]
   resources :users,  only: [:index, :show]
 
-  resource :api, default: {format: JSON} do
-    resource :v1 do
+  namespace :api, default: {format: 'json'} do
+    namespace :v1 do
 
-      resource :items do
+      namespace :items do
 
         get '/items', to: "items#index"
       end
+
 
 
     end
