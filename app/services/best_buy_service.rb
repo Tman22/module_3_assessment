@@ -7,10 +7,9 @@ class BestBuyService
     Faraday.new(:url => "https://api.bestbuy.com/v1/")
   end
 
-  # def self.all_items
-  #   parse(connection.get("products.json.zip?apiKey=YourAPIKey"))
-  # end
+  def 
 
+  end
 private
 
   def parse(response)
