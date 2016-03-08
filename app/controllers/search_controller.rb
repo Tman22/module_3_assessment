@@ -1,6 +1,7 @@
 class SearchController < ApplicationController
 
   def create
+    binding.pry
     redirect_to search_index_path
   end
 
