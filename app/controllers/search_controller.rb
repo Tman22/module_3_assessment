@@ -5,7 +5,7 @@ class SearchController < ApplicationController
   end
 
   def index
-    @items = BestBuy
+    @items = BestBuyService.product_search(params[:item])
   end
 
 end
